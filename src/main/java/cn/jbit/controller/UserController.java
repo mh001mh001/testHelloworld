@@ -10,6 +10,7 @@ public class UserController {
 	@RequestMapping("/sayHi")
 	public String sayHi() {
 		System.out.println("hello lxm!!");
+		System.out.println(1);
 		return "index";
 	}
 }
